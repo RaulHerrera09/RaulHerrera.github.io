@@ -48,45 +48,67 @@
 
 			<article class="post featured">
 				<header class="major">
-					<span class="date">Data Visualization & Analytics</span>
-					<h2><a href="#">Vehicle Market<br />
-							Insights Dashboard</a></h2>
-					<p>A comprehensive analytics tool designed to bring transparency to the used car market.
-						By processing over <b>47,000 data points</b>, this dashboard empowers users to identify fair
-						market values and depreciation trends instantly.</p>
+					<span class="date">Full-Stack Engineering & Data Analysis</span>
+					<h2><a href="#">EnergyEngine: European Grid<br />
+							Resilience Platform</a></h2>
+					<p>A high-performance analytical platform designed to monitor and assess the structural resilience
+						of European power grids (DE, FR, ES) using live data from ENTSO-E.</p>
 				</header>
 
-				<a href="#" class="image main"><img src="images/vehicle_demo.gif" alt="Vehicle Dashboard Demo" /></a>
+				<a href="#" class="image main"><img src="images/EnergyEngine.gif" alt="EnergyEngine Demo" /></a>
 
 				<div class="content-block" style="text-align: left;">
-					<h3>📌 Context & The Problem</h3>
-					<p>Raw vehicle data is often noisy, inconsistent, and unstructured, making manual valuation
-						impossible. The goal was to clean, normalize, and visualize this high-volume dataset to enable
-						real-time decision-making.</p>
+					<h3>📌 Context & Analysis</h3>
+					<p>Energy transition requires real-time observability. I built this tool to quantify grid stability
+						using custom resilience scoring and forecast accuracy modeling.</p>
 
 					<h3>🛠 Technical Solution</h3>
 					<ul>
-						<li><b>ETL Pipeline (Pandas):</b> Engineered a robust pipeline to handle missing values and
-							normalize 47k+ records.</li>
-						<li><b>Interactive Viz (Plotly):</b> Developed scatter plots with zoom capabilities to detect
-							price outliers.</li>
-						<li><b>Optimization:</b> Implemented Streamlit caching to reduce data reload times by 90%.</li>
+						<li><b>Data Architecture:</b> Engineered a multi-market ETL pipeline in <b>Python/Pandas</b>
+							with fail-safe fallback logic.</li>
+						<li><b>Predictive Metrics:</b> Implemented <b>Mean Absolute Error (MAE)</b> tracking to evaluate
+							generation forecast precision.</li>
+						<li><b>Full-Stack Deployment:</b> Orchestrated a <b>Django/React</b> ecosystem with
+							<b>PostgreSQL</b>, containerized with <b>Docker</b>.
+						</li>
 					</ul>
 
-					<h3>🚀 Results & Impact</h3>
-					<p>Reduced market research time from hours to seconds, providing an accessible tool for
-						non-technical users to visualize depreciation curves.</p>
+					<h3>🚀 Resilience Scoring</h3>
+					<p>Developed a proprietary algorithm that generates a 0-100% "Resilience Score" based on resource
+						diversity and renewable energy penetration.</p>
 				</div>
 
 				<ul class="actions special">
-					<li><a href="https://vehicle-market-insights-dashboard.streamlit.app/" class="button large"
-							target="_blank">View Live Demo</a></li>
-					<li><a href="https://github.com/RaulHerrera09/Web-Application" class="button large"
-							target="_blank">View Source Code</a></li>
+					<li><a href="https://github.com/RaulHerrera09/energy-resilience-engine" class="button large"
+							target="_blank">View Repository</a></li>
 				</ul>
 			</article>
 
 			<section class="posts">
+
+				<article>
+					<header>
+						<span class="date">Data Visualization & Analytics</span>
+						<h2><a href="#">Vehicle Market<br />
+								Insights Dashboard</a></h2>
+					</header>
+					<a href="#" class="image fit"><img src="images/vehicle_demo.gif" alt="Vehicle Demo" /></a>
+					<div style="text-align: left;">
+						<p><b>📌 The Challenge:</b> Cleaning and normalizing <b>47,000+ data points</b> to bring
+							transparency to used car valuations.</p>
+						<p><b>🛠 Technical Solution:</b> Engineered a robust <b>Pandas</b> pipeline for data
+							normalization and developed interactive <b>Plotly</b> scatter plots for outlier detection.
+						</p>
+						<p><b>🚀 Results:</b> Reduced market research time from hours to seconds by visualizing
+							depreciation curves via <b>Streamlit</b>.</p>
+					</div>
+					<ul class="actions special">
+						<li><a href="https://vehicle-market-insights-dashboard.streamlit.app/" class="button"
+								target="_blank">Live Demo</a></li>
+						<li><a href="https://github.com/RaulHerrera09/Web-Application" class="button"
+								target="_blank">Code</a></li>
+					</ul>
+				</article>
 
 				<article>
 					<header>
@@ -95,30 +117,19 @@
 								Churn Prediction</a></h2>
 					</header>
 					<a href="#" class="image fit"><img src="images/bank_churn.gif" alt="Bank ML Demo" /></a>
-
 					<div style="text-align: left;">
-						<p><b>📌 The Challenge:</b><br />
-							Customer retention is critical for digital banks. The objective was to predict which users
-							are likely to leave a "Revolut-style" bank based on transaction history.</p>
-
-						<p><b>🛠 Technical Solution:</b><br />
-							I engineered a complete ML pipeline using <b>Scikit-Learn</b>. I trained a <b>Random Forest
-								Classifier</b> to analyze demographics and behavior, deploying the model via a
-							<b>Streamlit</b> dashboard for business stakeholders.</p>
-
-						<p><b>🚀 Results & Impact:</b></p>
-						<ul>
-							<li>Achieved <b>85% accuracy</b> in predicting customer churn.</li>
-							<li>Created a visual interface that translates complex probabilities into actionable "Risk
-								Scores".</li>
-						</ul>
+						<p><b>📌 The Challenge:</b> Predicting customer retention for digital banks based on transaction
+							behavior and demographics.</p>
+						<p><b>🛠 Technical Solution:</b> Built a complete ML pipeline using <b>Scikit-Learn</b>,
+							training a <b>Random Forest Classifier</b> for high-precision behavior analysis.</p>
+						<p><b>🚀 Impact:</b> Achieved <b>85% accuracy</b> and translated complex probabilities into
+							actionable "Risk Scores" via <b>Streamlit</b>.</p>
 					</div>
-
 					<ul class="actions special">
 						<li><a href="https://bank-customer-churn-s.streamlit.app/" class="button" target="_blank">Live
 								Demo</a></li>
 						<li><a href="https://github.com/RaulHerrera09/churn-customer.behavior-analysis" class="button"
-								target="_blank">Documentation</a></li>
+								target="_blank">Docs</a></li>
 					</ul>
 				</article>
 
@@ -129,29 +140,19 @@
 								E-commerce Core</a></h2>
 					</header>
 					<a href="#" class="image fit"><img src="images/ecommerce.gif" alt="Ecommerce Demo" /></a>
-
 					<div style="text-align: left;">
-						<p><b>📌 The Challenge:</b><br />
-							Modern frameworks often hide the complexity of the web. The goal was to build a performant
-							e-commerce platform from scratch to master the Virtual DOM and State Management.</p>
-
-						<p><b>🛠 Technical Solution:</b><br />
-							Built entirely with <b>Vanilla JavaScript (ES6+)</b>. I implemented asynchronous data
-							fetching (Fetch API), a custom shopping cart using <b>Local Storage</b> for persistence, and
-							CSS Grid for layout.</p>
-
-						<p><b>🚀 Results & Impact:</b></p>
-						<ul>
-							<li><b>Performance:</b> Achieved load times under 100ms (Lighthouse score 98+).</li>
-							<li><b>Architecture:</b> Zero-dependency code, fully responsive and lightweight.</li>
-						</ul>
+						<p><b>📌 The Challenge:</b> Building a performant, zero-dependency e-commerce platform to master
+							Virtual DOM and State Management.</p>
+						<p><b>🛠 Technical Solution:</b> Developed with <b>Vanilla JS (ES6+)</b>, implementing
+							asynchronous fetching and <b>Local Storage</b> for cart persistence.</p>
+						<p><b>🚀 Performance:</b> Achieved load times under 100ms with a <b>Lighthouse score of 98+</b>.
+						</p>
 					</div>
-
 					<ul class="actions special">
 						<li><a href="https://cliente-easyelectroshop.onrender.com/" class="button" target="_blank">Live
 								Demo</a></li>
-						<li><a href="https://github.com/RaulHerrera09/E-commerce" class="button" target="_blank">View
-								Code</a></li>
+						<li><a href="https://github.com/RaulHerrera09/E-commerce" class="button"
+								target="_blank">Code</a></li>
 					</ul>
 				</article>
 
@@ -160,38 +161,37 @@
 		</div>
 
 		<footer id="footer">
+			<section style="text-align: center; padding: 3rem 0; border-top: none;">
 
-			<section style="text-align: center; padding: 2rem 0; border-top: none;">
-
-				<h3 style="margin-bottom: 1rem;">About Me</h3>
-				<p style="max-width: 800px; margin: 0 auto 2rem auto;">
-					I am a Computer Systems Engineering student with an insatiable curiosity for understanding how
-					things work.
-					I specialize in the intersection of <b>Data Analysis (Python)</b> and <b>Web Development
-						(JavaScript)</b>,
-					creating tools that don't just process information but make it accessible.
+				<h3 style="margin-bottom: 1.5rem;">About Me</h3>
+				<p style="max-width: 800px; margin: 0 auto 2.5rem auto; line-height: 1.6; font-size: 1.1rem;">
+					I am a <strong>Computer Systems Engineering student</strong> at Universidad Lamar (Class of 2026)
+					with an insatiable curiosity for deconstructing complex systems.
 					<br /><br />
-					Currently, I am focused on building predictive models and scalable applications.
+					Specialized in the intersection of <strong>Data Analysis (Python)</strong> and <strong>Software
+						Engineering (Django/React)</strong>, I bridge the gap between backend processing and interactive
+					analytics. With professional experience at <strong>FlexTronics</strong> and
+					<strong>TripleTen</strong>, my focus is transforming raw data into accessible business intelligence.
 				</p>
 
 				<h3 style="margin-bottom: 1.5rem;">Technical Toolkit</h3>
 				<div class="row" style="text-align: left; max-width: 800px; margin: 0 auto;">
 
 					<div class="col-6 col-12-small">
-						<h4>🔹 Languages & Data</h4>
+						<h4>🔹 Engineering & Data</h4>
 						<ul style="list-style-type: disc; margin-left: 1.5rem;">
-							<li><b>Languages:</b> Python, JavaScript (ES6+), SQL.</li>
-							<li><b>Data Science:</b> Pandas, NumPy, Scikit-learn.</li>
-							<li><b>Visualization:</b> Plotly, Streamlit.</li>
+							<li><strong>Languages:</strong> Python, SQL, JavaScript (ES6+), Java.</li>
+							<li><strong>Analysis:</strong> Pandas, NumPy, Scikit-learn, Statistics.</li>
+							<li><strong>Systems:</strong> Data Structures, Algorithms, PostgreSQL, Docker.</li>
 						</ul>
 					</div>
 
 					<div class="col-6 col-12-small">
-						<h4>🔹 Web & Tools</h4>
+						<h4>🔹 Web & Specialized Tools</h4>
 						<ul style="list-style-type: disc; margin-left: 1.5rem;">
-							<li><b>Frameworks:</b> Django, React.</li>
-							<li><b>Core Web:</b> HTML5, CSS3, DOM Manipulation.</li>
-							<li><b>Dev Tools:</b> Git/GitHub, LaTeX, VS Code.</li>
+							<li><strong>Frameworks:</strong> Django, React, Streamlit.</li>
+							<li><strong>Visualization:</strong> Plotly, Recharts, Tailwind CSS.</li>
+							<li><strong>DevOps/Env:</strong> Git, GitHub, VS Code, LaTeX.</li>
 						</ul>
 					</div>
 				</div>
@@ -208,8 +208,8 @@
 					</ul>
 				</section>
 			</section>
-
 		</footer>
+
 		<div id="copyright">
 			<ul>
 				<li>&copy; Raúl Herrera</li>
